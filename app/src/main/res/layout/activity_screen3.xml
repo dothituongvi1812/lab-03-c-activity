@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Screen2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="119dp"
+            android:layout_height="126dp"
+            android:layout_marginTop="7px"
+            android:layout_marginLeft="5px"
+            android:src="@drawable/vsmart_live_xanh"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/textViewThongTin"
+                android:layout_width="164dp"
+                android:layout_height="36dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="17dp"
+                android:text="Điện Thoại Vsmart Joy 3 \nHàng chính hãng"
+                android:textSize="15dp"
+                android:textStyle="normal"
+                android:textFontWeight="400"
+                android:textColor="#000000"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:text="Màu: "
+                    android:textSize="15dp"
+                    android:textStyle="normal"
+                    android:textFontWeight="400"
+                    android:textColor="#000000"/>
+                <TextView
+                    android:id="@+id/textViewColor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:textFontWeight="700"
+                    android:text="Cung cấp bởi "
+                    android:textColor="#000000"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="15dp"
+                    android:text=" Tiki Tradding"
+                    android:textColor="#000000"
+                    />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textFontWeight="700"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:text="1.790.000 đ"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="#C4C4C4">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chọn một màu bên dưới"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="17dp"
+            android:textSize="18dp"
+            android:textFontWeight="400"
+            android:textStyle="normal"
+            android:textColor="#000000"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageButton
+                android:id="@+id/buttonBlue"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#C5F1FB"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="13dp"/>
+            <ImageButton
+                android:id="@+id/buttonRed"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#F30D0D"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="13dp"/>
+            <ImageButton
+                android:id="@+id/buttonBlack"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#000000"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="13dp"/>
+            <ImageButton
+                android:id="@+id/buttonBlueBold"
+                android:layout_width="80dp"
+                android:layout_height="85dp"
+                android:backgroundTint="#234896"
+                android:layout_marginLeft="135dp"
+                android:layout_marginTop="13dp"/>
+            <Button
+                android:id="@+id/buttonXong"
+                android:layout_width="360dp"
+                android:layout_height="44dp"
+                android:layout_marginTop="46dp"
+                android:backgroundTint="#581952E2"
+                android:layout_marginLeft="17dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="17dp"
+                android:text="XONG"
+                android:textSize="20dp"
+                android:textFontWeight="700"
+                android:textStyle="normal"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>
